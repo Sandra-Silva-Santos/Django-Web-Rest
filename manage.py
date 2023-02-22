@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     # Set the environment variable for the Django settings module.
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "progeto.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "projeto.settings")
     try:
         # Import the execute_from_command_line() function from the
         # django.core.management module.
